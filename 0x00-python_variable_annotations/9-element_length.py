@@ -2,8 +2,9 @@
 '''Task 9's module.
 '''
 from typing import Iterable, List, Sequence, Tuple
-'''Retrieves the values with the appropriate types.
-'''
+
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes the length of a list of sequences.
+    '''
     return [(i, len(i)) for i in lst]

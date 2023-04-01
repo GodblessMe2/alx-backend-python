@@ -2,8 +2,8 @@
 '''Task 2's module.
 '''
 
-import math
-
 
 def floor(n: float) -> int:
-    return math.floor(n)
+    '''Computes the floor of a floating-point number.
+    '''
+    return int(n)
